@@ -70,8 +70,8 @@ int main()
     sub_h=ie_h-is_h;
     if(sub_h<0)
     {
-        carry_h=1;
-        sub_h+=24;
+        printf("end is early than start\n");
+        return 0;
     }
 
     printf("%dh%dmin%ds\n",sub_h,sub_m,sub_s);
